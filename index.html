@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>number guessing game</title>
+    <link rel="icon" href="./images/console.png">
+</head>
+<style>
+    body{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 100vh;
+        background: aquamarine;
+        flex-direction: column;
+    }
+    .mina_div{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    input{
+        width: 200px;
+        height: 40px;
+        border: 1px solid aliceblue;
+        border-radius: 10px;
+        box-sizing: border-box;
+        box-shadow: antiquewhite;
+        padding-left: 10px;
+       
+
+    }
+    input:hover{
+        color: black;
+        font-weight: 400;
+     
+
+    }
+    button{
+        width: 100px;
+        height: 30px;
+        border: 3px solid rgb(12, 125, 224);
+        border-radius: 10px;
+    }
+</style>
+<body>
+    
+<div class="mina_div">
+    <h1>Player 1</h1>
+    <input type="number" placeholder="Guess the number">
+    <button type="butto">Go</button>
+</div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
