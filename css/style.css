@@ -1,0 +1,26 @@
+
+body{
+    background: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.input_two{
+    display: none;
+}
+
+.main_div{
+    width: 50%;
+    display: flex;
+   
+    align-content: center;
+    flex-direction: column;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 20px;
+    gap: 10px;
+    background:ivory ;
+    box-sizing: border-box;
+    box-shadow: inset;
+}
